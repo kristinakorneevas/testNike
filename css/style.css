@@ -1,0 +1,87 @@
+header {
+  background: url(../img/00.jpg);
+  height: 150px;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+}
+.container {
+  width: 950px;
+  margin: auto;
+}
+nav{
+  float: right;
+  margin-top: 50px;
+}
+menu{
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.menu li {
+  float: left;
+  margin-right: 35px;
+}
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+}
+section {
+  background: gray;
+  height: 500px;
+}
+.title{
+  margin-top: 20px;
+}
+.title h2{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+.title p{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+.job img{
+  height: 250px;
+  width: 250px;
+}
+.job{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+footer {
+  background: #aaa8aa;
+  height: 300px;
+}
+.work h1{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.button{
+  background: rgb(0, 255, 157);
+  color: black;
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
